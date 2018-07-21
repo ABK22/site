@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>CSS Form</title>
+
+<link rel="stylesheet" type="text/css" href="label textbox.css">
+<style>
+ul{
+	list-style-type:none;
+	margin:none;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+	}
+li{
+	float:left;
+	}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:25px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+li a:hover{
+	background-color:grey;
+	}
+background{
+	opacity: 0.4;
+	filler: alpha(opacity=40);
+	}
+
+input[type=text],select {
+	width:50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=number],select {
+	width:50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=checkbox],select {
+	width:10%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=date],select {
+	width:50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 10%;
+	background-color: green;
+	color:black;
+	padding: 14px 20px;
+	margin 8 px 0;
+	border: none;
+	border-radius:4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: grey;
+	}
+div {
+	 border-radius:5 px;
+	 background-color:#f2f2f2;
+	 padding:10 px;
+	 }
+	 </style>
+<body>
+<ul>
+	<li><img src="logo.jpg" height="55" width="100"></li>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="courses.html">Courses</a></li>
+	<li><a href="css form.html" >Admission</a></li>
+</ul>
+<div>
+
+<h1 style="text-align:center">BIO-DATA</h1>
+<fieldset>
+<legend>Personal Details</legend>
+<form action="tq.html">
+  <label for="name">Name:</label>
+  <input type="text" name="name"  >
+  <label for="rollno">Mobile Number:</label>
+  <input type="text" name="rollno" >
+  <label for="address">Address:</label>
+  <input type="text" name="address" \>
+  <label for="gender">Gender:</label>
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="female">Female<br>
+  <label for="mail">Mail-id:</label>
+  <input type="text" name="mail" >
+  <label for="vehicle">Languages known:</label>
+  <input type="checkbox" name="vehicle" value="English" checked>English
+  <input type="checkbox" name="vehicle" value="Tamil">Tamil
+  <input type="checkbox" name="vehicle" value="Hindi">Hindi<br>
+  <label for="other">If any other languages known please specify below:</label>
+  <input text="text" name="other"><br>
+  <label for="bdate">Date of Birth:</label>
+  <input type="date" name="bdate"><br>
+  <label for="city">City:</label>
+  <input type="text" name="city"><br>
+ </fieldset>
+ <fieldset>
+ 
+ <legend>Education Details</legend>
+ <label for="sslcschool">SSLC School Studied</label>
+ <input type="text" name="sslcschool" >
+ <label for="hscschool">HSC School Studied:</label>
+ <input type="text" name="hscschool" ">
+ <label for="sslcper">SSLC Percentage:</label>
+ <input type="number" name="sslcper" step=0.1 >
+ <label for="hscper">HSC Percentage:</label>
+ <input type="number" name="hscper" step=0.1 >
+ 
+
+  </fieldset>
+<center>
+<a href="submit.html">
+<img src="submit.jpg" height="50" width="100"></a>
+  
+  
+
+  </body>
+  </html>

@@ -1,0 +1,21 @@
+ul{
+	list-style-type:none;
+	margin:none;
+	padding:0;
+	overflow:hidden;
+	background-color:#9997A0;
+}
+li{
+	float:left;
+}
+li a{
+		display:inline-block;
+		padding:14px 16px;
+		color:white;
+		text-align:center;
+		text-decoration:none;
+		font-family:"Comic Sans MS", cursive, sans-serif;
+}
+li a:hover{
+	background-color:grey;
+}
